@@ -33,7 +33,7 @@ page_sections:
       * Help center access
     url: https://example
 - template: textarea
-  textarea: this is some new content
+  textarea: "this is some new content\n\nsdaf asdf \n\nas\n\ndf as df\n\n "
 
 ---
 # Forestry CMS Blocks Field Demo
