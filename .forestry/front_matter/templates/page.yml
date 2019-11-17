@@ -21,6 +21,7 @@ fields:
   label: Page Sections
   template_types:
   - highlights
+  - textarea
   config:
     min: 
     max: 
