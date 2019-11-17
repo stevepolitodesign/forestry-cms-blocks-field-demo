@@ -32,6 +32,8 @@ page_sections:
       * Phone and email support
       * Help center access
     url: https://example
+- template: textarea
+  textarea: this is some new content
 
 ---
 # Forestry CMS Blocks Field Demo
