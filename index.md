@@ -5,9 +5,9 @@ description: This repository demonstrates how to use Forestry's Blocks Field to 
 page_sections:
 - template: highlights
   highlights:
-  - headline: Free
+  - headline: Free !!!!!
     description: |-
-      $0 / mo
+      askdlfj sadklfj kalsdfk lads;afjkls$0 / mo a
 
       * 10 users included
       * 2 GB of storage
