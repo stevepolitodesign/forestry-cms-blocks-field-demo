@@ -10,6 +10,8 @@ page_sections:
     Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.
 - template: highlights
   highlights:
+  - headline: New
+    description: item
   - headline: Free
     description: |-
       ## $0 / mo
