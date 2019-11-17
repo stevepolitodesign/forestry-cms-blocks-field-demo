@@ -1,5 +1,12 @@
 {% include header.html %}
 <div class="container">
     {{ content}}
+    {% for block in page.page_sections %}
+        {% assign template = block.template %}
+        {% case template %}
+        {% when 'highlights' %}
+            {% include blocks_highlights.html %}
+        {% endcase %}
+    {% endfor %}    
 </div>
 {% include footer.html %}
