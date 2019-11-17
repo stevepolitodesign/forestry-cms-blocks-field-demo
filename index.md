@@ -7,7 +7,7 @@ page_sections:
   highlights:
   - headline: Free
     description: |-
-      ## $0 / mo a
+      ## $0 / mo
 
       * 10 users included
       * 2 GB of storage
