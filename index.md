@@ -3,6 +3,8 @@ title: Forestry CMS Blocks Field Demo
 description: This repository demonstrates how to use Forestry's Blocks Field to create
   rich layouts.
 page_sections:
+- template: textarea
+  textarea: "this is some new content\n\nsdaf asdf \n\nas\n\ndf as df\n\n "
 - template: highlights
   highlights:
   - headline: Free !!!!!
@@ -32,8 +34,6 @@ page_sections:
       * Phone and email support
       * Help center access
     url: https://example
-- template: textarea
-  textarea: "this is some new content\n\nsdaf asdf \n\nas\n\ndf as df\n\n "
 
 ---
 # Forestry CMS Blocks Field Demo
