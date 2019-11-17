@@ -3,17 +3,13 @@ title: Forestry CMS Blocks Field Demo
 description: This repository demonstrates how to use Forestry's Blocks Field to create
   rich layouts.
 page_sections:
+- template: textarea
+  textarea: |-
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+
+    Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.
 - template: highlights
   highlights:
-  - headline: Free
-    description: |-
-      ## $0 / mo
-
-      * 10 users included
-      * 2 GB of storage
-      * Email support
-      * Help center access
-    url: https://example.com
   - headline: Pro
     description: |-
       ## $15 / mo
@@ -32,11 +28,16 @@ page_sections:
       * Phone and email support
       * Help center access
     url: https://example
-- template: textarea
-  textarea: |-
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+  - headline: Free
+    description: |-
+      ## $0 / mo
 
-    Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.
+      * 10 users included
+      * 2 GB of storage
+      * Email support
+      * Help center access
+      * New item
+    url: https://example.com
 
 ---
 # Forestry CMS Blocks Field Demo
