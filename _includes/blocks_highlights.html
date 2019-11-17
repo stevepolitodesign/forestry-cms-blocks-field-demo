@@ -1,8 +1,8 @@
-<div class="row">
+<div class="row mb-5">
     {% for highlight in block.highlights %}
         <div class="col-md-4">
             <h4>{{highlight.headline}}</h4>
-            {{ highlight.description }}
+            {{ highlight.description | markdownify}}
             {% if highlight.url %}
                 <a href="{{highlight.url}}" class="btn btn-large btn-primary">Click Here</a>
             {% endif %}
